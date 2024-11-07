@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Conversor de Temperatura</h1>
+    <div class="container">
+        <label for="temperatura">Digite a temperatura:</label>
+        <input type="number" id="temperatura" placeholder="0">
+        <select id="unidade">
+          <option value="celsius">Celsius</option>
+          <option value="fahrenheit">Fahrenheit</option>
+        </select>
+        <div class="button-group">
+          <button onclick="converter()">Converter</button>
+          <button onclick="resetar()">Resetar</button>
+        </div>
+        <p id="resultado"></p>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
